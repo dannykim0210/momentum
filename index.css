@@ -1,0 +1,23 @@
+body {
+  background-color: whitesmoke;
+}
+body {
+  color: rgb(0, 0, 0.5);
+}
+
+.clicked {
+  color: aquamarine;
+}
+
+.btn {
+  color: #34495e;
+  cursor: pointer;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+}
