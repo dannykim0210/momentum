@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import "reset.css";
+
 body {
   background-color: #95afc0;
 }
@@ -11,6 +13,7 @@ body {
   flex-direction: column;
   font-family: "Noto Sans JP", sans-serif;
   position: relative;
+  margin: 0px 0px;
 }
 
 .clicked {
