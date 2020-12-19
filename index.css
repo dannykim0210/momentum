@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 body {
   background-color: #95afc0;
 }
 body {
   color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Noto Sans JP", sans-serif;
+  position: relative;
 }
 
 .clicked {
@@ -37,4 +45,28 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 200px;
+}
+h1 {
+  font-size: 150px;
+  margin-bottom: 0px;
+}
+h4 {
+  font-size: 50px;
+  padding: 0px;
+  margin-top: 25px;
+}
+.js-weather {
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
