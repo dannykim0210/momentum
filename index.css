@@ -54,7 +54,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 100px;
   padding: 0px;
   margin-bottom: 0px;
   height: 200px;
@@ -66,10 +66,14 @@ h1 {
 h4 {
   font-size: 50px;
   padding: 0px;
-  margin-top: 25px;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 .js-weather {
   position: absolute;
   right: 15px;
   top: 15px;
+}
+.js-toDoList {
+  margin-right: 5px;
 }
